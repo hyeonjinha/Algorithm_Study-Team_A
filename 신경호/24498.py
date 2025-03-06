@@ -1,6 +1,5 @@
 #선택할 수 있는 idx는 1 ~ n-2
-#왼쪽에서 부터 시작하여 0을 만들면서 진행
-#오른쪽이 0이되면 max값
+#idx를 순회하며 양쪽에 있는 수 중 작은 값을 더함
 
 import sys
 input = sys.stdin.readline
